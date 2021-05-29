@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./components/Layout/Header";
-import HeaderCartButton from './components/Layout/HeaderCartButton';
+import Meals from "./components/Meals/Meals";
 
 function App() {
   return (
     <React.Fragment>
-      <Header></Header>;
+      <Header></Header>
+      <Meals></Meals>
     </React.Fragment>
   );
 }
