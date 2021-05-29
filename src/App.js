@@ -1,8 +1,12 @@
+import React from "react";
+import Header from "./components/Layout/Header";
+import HeaderCartButton from './components/Layout/HeaderCartButton';
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <React.Fragment>
+      <Header></Header>;
+    </React.Fragment>
   );
 }
 
